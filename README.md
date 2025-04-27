@@ -1,0 +1,90 @@
+[![version](https://img.shields.io/badge/version-1.0v-orange)](https://github.com/mabdelmaksoud53/ZincDock)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/mabdelmaksoud53/ZincDock/blob/main/LICENSE)
+
+# **Zinc Metalloproteins Docking**
+
+## Hello there
+
+Welcome to the **Zinc Metalloproteins Docking Github Repo**!
+
+This repository provides a complete setup guide, environment configuration, scripts for performing molecular docking of zinc metalloproteins with `**AutoDock Vina**`, `**AutoDock4**`, `**MGLTools**`, and `**PyMOL**`, specifically optimized for handling `**zinc metalloproteins**`.
+
+We use powerful open-source tools including AutoDock Vina, AutoDock4, MGLTools, and PyMOL, with workflows optimized specifically for zinc metalloproteins. Make sure to read the instructions carefully before using the pipeline to get the best results!
+
+---
+
+## Table of Contents
+
+- [About](#about)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation Guide](#installation-guide)
+- [License](#license)
+
+---
+
+## About
+
+**Zinc metalloproteins** play crucial roles in biological systems and require careful treatment during molecular docking simulations.  
+This project provides:
+
+- Easy installation scripts.
+- Optimized settings for docking with zinc ions.
+
+## Project-structure
+
+```bash
+zinc-metalloproteins-docking/
+├── setup_tutorial.md         # Detailed setup guide
+├── README.md                 # This file
+├── LICENSE                   # Project license
+├── scripts/                  # (Optional) Helper scripts for automation
+├── resources/                # (Optional) Sample PDB files, ligands
+└── Example                   
+```
+
+## prerequisites
+
+Make sure you have:
+
+- A Linux distribution (Ubuntu 20.04+ recommended).
+- Basic knowledge of terminal commands.
+- Sufficient disk space (~5 GB).
+- Internet connection for downloading packages.
+
+Required software/tools:
+
+- **AutoDock Vina 1.2.3** for fast and flexible docking.
+- **AutoDock 4.2** for traditional docking with grid maps.
+- **MGLTools 1.5.6 and 1.5.7** for ligand and receptor preparation.
+- **PyMOL** for molecular visualization.
+- **Anaconda** for Python environment management.
+
+## installation-guide
+
+- clone and build manually:
+
+```bash
+# Clone this repository
+git clone https://github.com/mabdelmaksoud53/ZincDock
+cd ZincDock
+```
+
+- Follow the setup instructions step-by-step
+You can follow the full [Setup Tutorial](./Environmental_setup.md) available in this repository.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./liscence) file for details.
+
+## Acknowledgments
+
+- Scripps Research — AutoDock suite and MGLTools.
+- Open-Source Community — for amazing contributions to computational docking.
+- Special thanks to all the researchers working on metalloproteins and drug design.
+
+## Contributing
+
+- Pull requests are welcome!
+- If you find an issue or have suggestions for improvements, feel free to open an issue or PR.
+- Let's build better tools for computational chemistry together!
