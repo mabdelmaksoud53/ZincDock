@@ -75,7 +75,7 @@ You can follow the full [Setup Tutorial](./Environmental_setup.md) available in 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](./liscence) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ## Acknowledgments
 
