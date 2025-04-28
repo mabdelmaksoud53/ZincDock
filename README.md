@@ -75,18 +75,26 @@ git clone https://github.com/mabdelmaksoud53/ZincDock
 cd ZincDock
 ```
 
-- Follow the setup instructions step-by-step
-You can follow the full [Setup Tutorial](./workflow/Environmental_setup.md) available in this repository.
+- Environment setup
+- To set up your environment, follow the step-by-step instructions carefuly.
+- You can find the full [Here](./Workflow/Environmental_setup.md).
+
+## How it Works
+
+- If you need a step-by-step guide, please follow the instructions [here](./Workflow/Zn_Dock.md)
+- If you prefer an automated process, you can simply copy this [`docking_script.ah`](./scripts/docking_scripts.sh) into your working directory.
+Then run the following commands:
+
+```bash
+chmod +x docking_script.sh
+./docking_script.sh
+```
+
+- After running the script, enter the required inputs when prompted.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-## Acknowledgments
-
-- Scripps Research — AutoDock suite and MGLTools.
-- Open-Source Community — for amazing contributions to computational docking.
-- Special thanks to all the researchers working on metalloproteins and drug design.
 
 ## Contributing
 
