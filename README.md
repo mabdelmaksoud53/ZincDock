@@ -7,7 +7,7 @@
 
 Welcome to the **Zinc Metalloproteins Docking Github Repo**!
 
-This repository provides a complete setup guide, environment configuration, scripts for performing molecular docking of zinc metalloproteins with `**AutoDock Vina**`, `**AutoDock4**`, `**MGLTools**`, and `**PyMOL**`, specifically optimized for handling `**zinc metalloproteins**`.
+This repository provides a complete setup guide, environment configuration, scripts for performing molecular docking of zinc metalloproteins with `AutoDock Vina`, `AutoDock4`, `MGLTools`, and `PyMOL`, specifically optimized for handling `zinc metalloproteins`.
 
 We use powerful open-source tools including AutoDock Vina, AutoDock4, MGLTools, and PyMOL, with workflows optimized specifically for zinc metalloproteins. Make sure to read the instructions carefully before using the pipeline to get the best results!
 
@@ -16,6 +16,7 @@ We use powerful open-source tools including AutoDock Vina, AutoDock4, MGLTools, 
 ## Table of Contents
 
 - [About](#about)
+- [Workflow](#workflow)
 - [Project Structure](#project-structure)
 - [Prerequisites](#prerequisites)
 - [Installation Guide](#installation-guide)
@@ -31,16 +32,20 @@ This project provides:
 - Easy installation scripts.
 - Optimized settings for docking with zinc ions.
 
+## Workflow
+
+![workflow](./screenshots/Workflow.png)
+
 ## Project-structure
 
 ```bash
-zinc-metalloproteins-docking/
-├── setup_tutorial.md         # Detailed setup guide
-├── README.md                 # This file
-├── LICENSE                   # Project license
-├── scripts/                  # (Optional) Helper scripts for automation
-├── resources/                # (Optional) Sample PDB files, ligands
-└── Example                   
+ZincDock/
+├── scripts/                  
+├── resources/                
+├── screenshots/                 
+├── Example                 
+├── LICENSE                   
+└── README.md                    
 ```
 
 ## prerequisites
@@ -49,10 +54,10 @@ Make sure you have:
 
 - A Linux distribution (Ubuntu 20.04+ recommended).
 - Basic knowledge of terminal commands.
-- Sufficient disk space (~5 GB).
+- Sufficient disk space.
 - Internet connection for downloading packages.
 
-Required software/tools:
+`Required software/tools:`
 
 - **AutoDock Vina 1.2.3** for fast and flexible docking.
 - **AutoDock 4.2** for traditional docking with grid maps.
@@ -71,7 +76,7 @@ cd ZincDock
 ```
 
 - Follow the setup instructions step-by-step
-You can follow the full [Setup Tutorial](./Environmental_setup.md) available in this repository.
+You can follow the full [Setup Tutorial](./scripts/Environmental_setup.md) available in this repository.
 
 ## License
 
