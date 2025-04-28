@@ -76,7 +76,7 @@ cd ZincDock
 ```
 
 - Follow the setup instructions step-by-step
-You can follow the full [Setup Tutorial](./workflow/Environmental_setup.md) available in this repository.
+You can follow the full [Setup Tutorial](./Workflow/Environmental_setup.md) available in this repository.
 
 ## License
 
