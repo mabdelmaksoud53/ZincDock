@@ -75,6 +75,7 @@ git clone https://github.com/mabdelmaksoud53/ZincDock
 cd ZincDock
 ```
 
+<<<<<<< HEAD
 - Environment setup
 - To set up your environment, follow the step-by-step instructions carefuly.
 - You can find the full [Here](./Workflow/Environmental_setup.md).
@@ -91,6 +92,10 @@ chmod +x docking_script.sh
 ```
 
 - After running the script, enter the required inputs when prompted.
+=======
+- Follow the setup instructions step-by-step
+You can follow the full [Setup Tutorial](./Workflow/Environmental_setup.md) available in this repository.
+>>>>>>> e9f8d17951d2f2f8017f7f07755614c08db034e6
 
 ## License
 
